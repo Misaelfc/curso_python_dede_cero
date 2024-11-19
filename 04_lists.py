@@ -1,4 +1,5 @@
 ### Listas ###
+# Las listas son mutables y se pueden cambiar y se definen con corchetes
 
 # Definición
 
