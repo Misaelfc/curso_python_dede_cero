@@ -1,0 +1,6 @@
+Mi nombre es Misael
+Mi apellido es Flores
+33 años
+Y mi lenguaje preferido es Python
+Aunque también me gusta JavaScript
+Y Swift
