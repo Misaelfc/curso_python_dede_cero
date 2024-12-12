@@ -3,6 +3,16 @@
 
 # PIP https://pypi.org
 
+# Para instalar los paquetes crear primero una carpeta de entorno virtual
+# 1. sudo -H pip3 install virtualenv
+# 2. password: (Pones la contraseña)
+# 3. python3 -m virtualenv my_virtualenv es el nombre de la carpeta del entorno virtual, pero tu le puedes poner el que tu quieras.
+# 4. cd my_virtualenv Esto es para entrar a la carpeta del entorno virtual
+# 5. source bin/activate
+# 6. python3 --version Checa que version de python tienes
+# 7. pip3 install numpy pandas Instalas los paquetes que quieras poner en python
+
+
 # pip install pip
 # pip --version
 
