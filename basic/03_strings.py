@@ -1,5 +1,15 @@
 ### Strings ###
 
+letter = 'P'                # A string could be a single character or a bunch of texts
+print(letter)               # P
+print(len(letter))          # 1
+# String could be made using a single or double quote,"Hello, World!"
+greeting = 'Hello, World!'
+print(greeting)             # Hello, World!
+print(len(greeting))        # 13
+sentence = "I hope you are enjoying 30 days of Python Challenge"
+print(sentence)
+
 my_string = "Mi string"
 my_other_string = 'Mi otro string'
 
@@ -61,3 +71,21 @@ print(language.lower())
 print(language.lower().isupper())
 print(language.startswith("Py"))
 print("Py" == "py")  # No es lo mismo
+
+# Multiline String
+multiline_string = '''I am a teacher and enjoy teaching.
+I didn't find anything as rewarding as empowering people.
+That is why I created 30 days of python.'''
+print(multiline_string)
+
+# String Concatenation
+first_name = 'Abraham'
+last_name = 'Flores'
+space = ' '
+full_name = first_name + space + last_name
+print(full_name)  # Abraham Flores
+# Checking the length of a string using len() built-in function
+print(len(first_name))  # 7
+print(len(last_name))   # 6
+print(len(first_name) > len(last_name))  # True
+print(len(full_name))  # 14
