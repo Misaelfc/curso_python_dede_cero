@@ -2,35 +2,39 @@
 
 # Operaciones con enteros
 
-print(3 + 4)
-print(3 - 4)
-print(3 * 4)
-print(3 / 4)
-print(10 % 3) #Residuo de la división
-print(10 // 3) #Flor división siempre dará entero al más próximo
-print(2 ** 3) #Potencia
-print(2 ** 3 + 3 - 7 / 1 // 4)
+print('Addition: ', 3 + 4)
+print('Subtraction: ', 3 - 4)
+print('Multiplication: ', 3 * 4)
+print('Division: ', 3 / 4)
+print('Modulus: ', 10 % 3)  # Residuo de la división
+# Flor división siempre dará entero al más próximo
+print('Floor Division: ', 10 // 3)
+print('Exponentiation: ', 2 ** 3)  # Potencia
+print('Combined Operations: ', 2 ** 3 + 3 - 7 / 1 // 4)
 
 # Operaciones con cadenas de texto
-print("Hola " + "Python " + "¿Qué tal?")
-print("Hola " + str(5))
+print('Concatenation: ', "Hola " + "Python " + "¿Qué tal?")
+print('String Repetition: ', "Hola " + str(5))
 
 # Operaciones mixtas
 print("Hola " * 5)
 print("Hola " * (2 ** 3))
 
+# Floating numbers
+print('Floating Number,PI', 3.14)
+print('Floating Number, gravity', 9.81)
 my_float = 2.5 * 2
-print("Hola " * int(my_float))
+print('String Repetition with Float: ', "Hola " * int(my_float))
 
 ### Operadores Comparativos ###
 
 # Operaciones con enteros
-print(3 > 4) #False
-print(3 < 4) #True
-print(3 >= 4) #False
-print(4 <= 4) #True
-print(3 == 4) #False
-print(3 != 4) #True != es diferencia
+print(3 > 4)  # False
+print(3 < 4)  # True
+print(3 >= 4)  # False
+print(4 <= 4)  # True
+print(3 == 4)  # False
+print(3 != 4)  # True != es diferencia
 
 # Operaciones con cadenas de texto
 print("Hola" > "Python")

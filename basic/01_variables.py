@@ -1,4 +1,30 @@
-# Variables
+# Variables in Python
+
+first_name = 'Abraham'
+last_name = 'Flores'
+country = 'México'
+city = 'Cancun'
+age = 35
+is_married = True
+skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
+person_info = {
+    'firstname': 'Abraham',
+    'lastname': 'Flores',
+    'country': 'México',
+    'city': 'Cancun'
+}
+# Printing the values stored in the variables
+
+print('First name:', first_name)
+print('First name length:', len(first_name))
+print('Last name: ', last_name)
+print('Last name length: ', len(last_name))
+print('Country: ', country)
+print('City: ', city)
+print('Age: ', age)
+print('Married: ', is_married)
+print('Skills: ', skills)
+print('Person information: ', person_info)
 
 my_string_variable = "My String Variable"
 print(my_string_variable)
@@ -13,7 +39,7 @@ print(type(my_int__to_str_variable))
 my_bool_variable = False
 print(my_bool_variable)
 
-#Concatenación de variables en un print
+# Concatenación de variables en un print
 print(type(print(my_string_variable, str(my_int_variable), my_bool_variable)))
 
 print("Este es el valor de:", my_bool_variable)
@@ -22,7 +48,7 @@ print("Este es el valor de:", my_bool_variable)
 print(len(my_string_variable))
 
 # Variables en una sola línea
-name, surname, alias, age = "Misael", "Flores", 33, "AbrahamDev" 
+name, surname, alias, age = "Misael", "Flores", 33, "AbrahamDev"
 print("Me llamo:", name, surname, "Mi edad es:", age, "Y mi alias es:", alias)
 
 # Inputs
@@ -38,7 +64,7 @@ age = "Misael"
 print(name)
 print(age)
 
-#Forzamos el tipo
+# Forzamos el tipo
 
 address: str = "Mi dirección"
 address = True
